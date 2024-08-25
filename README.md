@@ -27,18 +27,24 @@ Uma simples aplicação de Todo List construída com Node.js, Express e MongoDB.
 ## Instalação
 
 1. Clone o repositório:
-   git clone https://github.com/seunome/todo-list.git
+   git clone https://github.com/Werricsson-Santos/todo-list-mongo-js.git
 
 2. Navegue até o diretório do projeto:
-   cd todo-list
+``` bash
+   cd todo-list-mongo-js
+```
 
 3. Instale as dependências:
+``` bash
    npm install
+```
 
 4. Configure seu banco de dados MongoDB. Você pode usar uma instância local do MongoDB ou um serviço em nuvem como o MongoDB Atlas. A conexão com o banco de dados é feita diretamente pelo arquivo `config/database.js`.
 
 5. Inicie a aplicação:
+``` bash
    npm run dev
+```
 
 6. Abra seu navegador e acesse `http://localhost:3000` para acessar a aplicação.
 
